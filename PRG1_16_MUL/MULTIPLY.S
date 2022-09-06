@@ -1,0 +1,22 @@
+;/* PROGRAM TO MULTIPLY TWO 16BIT NUMBERS 									*/
+;/*	VALUE1:	1900H	(6400)		(IN R1)										*/
+;/*	VALUE2:	0C80H	(3200)  	(IN R2)										*/
+;/*	RESULT:	1388000H(20480000)	(IN R3)										*/
+;/* SET A BREAKPOINT AT NOP INSTRUCTION,RUN THE PROGRAM & CHECK THE RESULT 	*/ 
+;/* PROGRAM WRITTEN BY ALS R&D TEAM BENGALURU	DATE:08/08/2011				*/ 
+
+    AREA  MULTIPLY , CODE, READONLY
+
+ENTRY				;Mark first instruction to execute
+
+START	
+
+	MOV r1,#0004          		; STORE FIRST NUMBER IN R0
+	MOV r2,#0002          		; STORE SECOND NUMBER IN R1
+	MUL r3,r1,r2           		; MULTIPLICATION
+	  					   	
+  	NOP
+	NOP
+	NOP
+	END				 ;Mark end of file
+

@@ -1,0 +1,77 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;/* PROGRAM TO MULTIPLY TWO 16BIT NUMBERS          */
+    2 00000000         ;/* VALUE1: 1900H (6400)  (IN R1)          */
+    3 00000000         ;/* VALUE2: 0C80H (3200)   (IN R2)          */
+    4 00000000         ;/* RESULT: 1388000H(20480000) (IN R3)          */
+    5 00000000         ;/* SET A BREAKPOINT AT NOP INSTRUCTION,RUN THE PROGRAM 
+                       & CHECK THE RESULT  */ 
+    6 00000000         ;/* PROGRAM WRITTEN BY ALS R&D TEAM BENGALURU DATE:08/08
+                       /2011    */ 
+    7 00000000         
+    8 00000000                 AREA             MULTIPLY , CODE, READONLY
+    9 00000000         
+   10 00000000         ENTRY                                ;Mark first instruc
+                                                            tion to execute
+   11 00000000         
+   12 00000000         START
+   13 00000000         
+   14 00000000 E3A01004        MOV              r1,#0004    ; STORE FIRST NUMBE
+                                                            R IN R0
+   15 00000004 E3A02002        MOV              r2,#0002    ; STORE SECOND NUMB
+                                                            ER IN R1
+   16 00000008 E0030291        MUL              r3,r1,r2    ; MULTIPLICATION
+   17 0000000C         
+   18 0000000C E1A00000        NOP
+   19 00000010 E1A00000        NOP
+   20 00000014 E1A00000        NOP
+   21 00000018         END                                  ;Mark end of file
+   22 00000018         
+                       
+Command Line: --debug --xref --apcs=interwork --depend=.\multiply.d -o.\multipl
+y.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philip
+s --predefine="__EVAL SETA 1" --list=.\multiply.lst MULTIPLY.S
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+END 00000018
+
+Symbol: END
+   Definitions
+      At line 21 in file MULTIPLY.S
+   Uses
+      None
+Comment: END unused
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 10 in file MULTIPLY.S
+   Uses
+      None
+Comment: ENTRY unused
+MULTIPLY 00000000
+
+Symbol: MULTIPLY
+   Definitions
+      At line 8 in file MULTIPLY.S
+   Uses
+      None
+Comment: MULTIPLY unused
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 12 in file MULTIPLY.S
+   Uses
+      None
+Comment: START unused
+4 symbols
+335 symbols in table

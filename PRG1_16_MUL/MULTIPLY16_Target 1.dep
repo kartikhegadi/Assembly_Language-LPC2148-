@@ -1,0 +1,2 @@
+Dependencies for Project 'MULTIPLY16', Target 'Target 1': (DO NOT MODIFY !)
+F (.\MULTIPLY.S)(0x5E158102)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\multiply.lst --xref -o .\multiply.o --depend .\multiply.d)
