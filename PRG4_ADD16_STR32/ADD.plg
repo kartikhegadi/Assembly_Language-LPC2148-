@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\ARM06\ARM07_EVALUATION_BOARD_06\ASSEMBLY PROGRAMS\PRG3_ADD16_STR32\ADD.uvproj
+Project File Date:  08/11/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling ADD.S...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=4 ZI-data=0  
+"ADD.axf" - 0 Error(s), 0 Warning(s).
