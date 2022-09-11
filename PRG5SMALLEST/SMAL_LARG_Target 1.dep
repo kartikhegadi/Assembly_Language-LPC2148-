@@ -1,0 +1,2 @@
+Dependencies for Project 'SMAL_LARG', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SMAL_LARG.s)(0x4E44F5C7)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "SMAL_LARG.lst" --xref -o "SMAL_LARG.o" --depend "SMAL_LARG.d")

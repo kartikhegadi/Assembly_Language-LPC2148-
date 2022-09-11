@@ -1,0 +1,1 @@
+SMAL_LARG.o: SMAL_LARG.s
