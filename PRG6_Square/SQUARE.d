@@ -1,0 +1,1 @@
+SQUARE.o: SQUARE.S

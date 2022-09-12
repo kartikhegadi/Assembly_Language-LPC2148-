@@ -1,0 +1,2 @@
+Dependencies for Project 'SQUARE', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SQUARE.S)(0x5143FEAF)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "SQUARE.lst" --xref -o "SQUARE.o" --depend "SQUARE.d")

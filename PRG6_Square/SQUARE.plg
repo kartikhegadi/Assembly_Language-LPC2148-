@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\N_Shetty\ARM LPC2148 Board\SOFTWARES\Assembly programs\KEIL 4  PROGRAMS\FINAL PROGRAMS\PRG6_Square\SQUARE.uvproj
+Project File Date:  08/11/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling SQUARE.S...
+linking...
+Program Size: Code=80 RO-data=0 RW-data=0 ZI-data=0  
+"SQUARE.axf" - 0 Error(s), 0 Warning(s).
