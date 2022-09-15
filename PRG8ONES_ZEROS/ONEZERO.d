@@ -1,0 +1,1 @@
+ONEZERO.o: ONEZERO.S

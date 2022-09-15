@@ -1,0 +1,2 @@
+Dependencies for Project 'DESCENDING', Target 'Target 1': (DO NOT MODIFY !)
+F (.\DESCENDING.S)(0x4E4B865A)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "DESCENDING.lst" --xref -o "DESCENDING.o" --depend "DESCENDING.d")
