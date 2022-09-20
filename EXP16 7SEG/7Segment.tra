@@ -1,0 +1,20 @@
+*** Creating Trace Output File '7Segment.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"7segment.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "7segment.o" --library_type=microlib --strict --scatter "7Segment.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\7Segment.map" -o "7Segment.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '7Segment.axf'
+### ADS-LD Command File: '7Segment.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '7Segment.lnp', Handle=0x0000060C
+### Writing '.lnp' file
+### ADS-LD Command file '7Segment.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

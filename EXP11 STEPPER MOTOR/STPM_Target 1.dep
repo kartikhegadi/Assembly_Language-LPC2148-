@@ -1,0 +1,4 @@
+Dependencies for Project 'STPM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5424F58E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil4_7\ARM\RV31\INC-I C:\Keil4_7\ARM\CMSIS\Include-I C:\Keil4_7\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\STPM.c)(0x5AF001CA)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil4_7\ARM\RV31\INC-I C:\Keil4_7\ARM\CMSIS\Include-I C:\Keil4_7\ARM\Inc\Philips-o .\stpm.o --omf_browse .\stpm.crf --depend .\stpm.d)
+I (C:\Keil4_7\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
